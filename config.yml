@@ -20,7 +20,7 @@ dockitems_persist: []
    pos: 5
  - name: "Chrome"
    path: "/Applications/Google Chrome.app/"
-   pos: 5
+   pos: 4
 
 configure_sudoers: false
 sudoers_custom_config: ''
