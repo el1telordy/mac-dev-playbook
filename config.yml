@@ -8,20 +8,20 @@ configure_osx: true
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove:
-- TV
-- Podcasts
 - 'App Store'
-- Safari
-- Photos
-- Mail
-- FaceTime
-- Contacts
-- Messages
-- Maps
-- Reminders
-- Music
-- Settings
 - Calendar
+- Contacts
+- FaceTime
+- Mail
+- Maps
+- Messages
+- Music
+- Photos
+- Podcasts
+- Reminders
+- Safari
+- Settings
+- TV
 
 dockitems_persist:
 -  name: "Calendar"
@@ -111,23 +111,25 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - aldente
+  - alfred
+  - android-platform-tools
+  - balenaetcher
+  - coconutbattery
+  - discord
   - docker
   - google-chrome
-  - sublime-text
-  - qbittorrent
-  - discord
-  - spotify
-  - telegram-desktop
-  - vk-messenger
-  - balenaetcher
-  - alfred
-  - coconutbattery
-  - onyx
-  - syncthing
-  - keka
   - impactor
   - intellij-idea
+  - keka
   - moonlight
+  - onyx
+  - qbittorrent
+  - spotify
+  - sublime-text
+  - syncthing
+  - telegram-desktop
+  - vk-messenger
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
