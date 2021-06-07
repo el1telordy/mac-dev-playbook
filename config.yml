@@ -81,9 +81,21 @@ homebrew_cask_apps:
   - discord
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 1278508951, name: "Trello" }
+  - { id: 1265763895, name: "VK Messenger" }
+  - { id: 1176074088, name: "Termius - SSH client" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 1191449274, name: "ToothFairy" }
+  - { id: 441258766, name: "Magnet" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 1440147259, name: "AdGuard for Safari" }
+  - { id: 975937182, name: "Fantastical - Calendar & Tasks" }
+
 mas_email: ""
 mas_password: ""
+mas_signin_dialog: false
 
 osx_script: "~/.osx --no-restart"
 
