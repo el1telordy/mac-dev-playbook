@@ -115,12 +115,14 @@ homebrew_cask_apps:
   - alfred
   - android-platform-tools
   - balenaetcher
+  - bitwarden
   - coconutbattery
   - discord
   - docker
   - google-chrome
   - impactor
   - intellij-idea
+  - istat-menus
   - keka
   - moonlight
   - onyx
