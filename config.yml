@@ -117,6 +117,7 @@ mas_installed_apps:
   - { id: 497799835, name: "Xcode" }
 #   - { id: 1191449274, name: "ToothFairy" }
 #   - { id: 441258766, name: "Magnet" }
+  - { id: 1274495053, name: "Microsoft To Do" }
   - { id: 409201541, name: "Pages" }
   - { id: 1451685025, name: "WireGuard" }
   - { id: 1440147259, name: "AdGuard for Safari" }
