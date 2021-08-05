@@ -11,7 +11,7 @@
 	ZGx5gI6Qkpeiq7O2AAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAL8=
 	</data>
 	<key>CursorBlink</key>
-	<true/>
+	<false/>
 	<key>CursorColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -78,8 +78,14 @@
 	TlNPYmplY3QIERokKTI3SUxRU1ddZGp3fqOlp6y3wMjLAAAAAAAAAQEAAAAAAAAAGQAA
 	AAAAAAAAAAAAAAAAANQ=
 	</data>
+	<key>UseBrightBold</key>
+	<true/>
+	<key>columnCount</key>
+	<integer>105</integer>
 	<key>name</key>
-	<string>Homebrew</string>
+	<string>elitelordy</string>
+	<key>rowCount</key>
+	<integer>35</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
