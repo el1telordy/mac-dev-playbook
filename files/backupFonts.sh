@@ -19,14 +19,14 @@ function restore () {
 
 if [ "$1" == "--backup" ] || [ "$1" == "-b" ]
 then
-  backup && echo "Backuped!"
+  backup && echo "Backed up!"
 elif [ "$1" == "--restore" ] || [ "$1" == "-r" ]
 then
   restore && echo "Restored!"
 elif [ "$1" == "--help" ] || [ "$1" == "-h" ]
 then
   echo "Usage:
-  (-b | --backup) backup fonts from system folder to home directory
+  (-b | --backup) back up fonts from system folder to home directory
   (-r | --restore) to restore fonts from home directory to system folder
   (-i | --icloud) use as second arg to backup to icloud
   "
