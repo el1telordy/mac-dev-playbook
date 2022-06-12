@@ -98,7 +98,7 @@ homebrew_cask_apps:
   - coconutbattery
   - discord
   - docker
-  - google-chrome
+  - eloston-chromium
   - impactor
   - intellij-idea
   - istat-menus
@@ -124,7 +124,6 @@ mas_installed_apps:
   - { id: 409201541, name: "Pages" }
   - { id: 1451685025, name: "WireGuard" }
   - { id: 1440147259, name: "AdGuard for Safari" }
-  - { id: 975937182, name: "Fantastical - Calendar & Tasks" }
 
 mas_email: ""
 mas_password: ""
