@@ -40,16 +40,16 @@ dockitems_persist:
    path: "/Applications/Spotify.app/"
    pos: 6
    
- - name: "Telegram" 
+ - name: "Telegram"
    path: "/Applications/Telegram.app/"
    pos: 7
    
- - name: "VK Messenger"
-   path: "/Applications/VK Messenger.app/"
-   pos: 8
-   
  - name: "Trello"
    path: "/Applications/Trello.app/"
+   pos: 8
+   
+ - name: "Microsoft To Do"
+   path: "/Applications/Microsoft To Do/"
    pos: 9
    
  - name: "Terminal"
@@ -83,6 +83,10 @@ homebrew_installed_packages:
   - git
   - nmap
   - wget
+  - neovim
+  - tmux
+  - bottom
+  - broot
 
 homebrew_taps:
   - homebrew/core
@@ -93,8 +97,10 @@ homebrew_cask_apps:
   - aldente
   - alfred
   - android-platform-tools
+  - audacity
   - balenaetcher
   - bitwarden
+  - cloudflare-warp
   - coconutbattery
   - discord
   - docker
@@ -105,12 +111,13 @@ homebrew_cask_apps:
   - keka
   - moonlight
   - onyx
+  - parsec
   - qbittorrent
   - spotify
   - sublime-text
   - syncthing
   - telegram-desktop
-  - vk-messenger
+  - wireshark
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:

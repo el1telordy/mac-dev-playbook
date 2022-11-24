@@ -8,21 +8,21 @@
 
 - name: Ensure custom Terminal profile is added.
   copy:
-    src: files/terminal/elitelordy.terminal
-    dest: /tmp/elitelordy.terminal
+    src: files/terminal/gruvbox-dark.terminal
+    dest: /tmp/gruvbox-dark.terminal
   changed_when: false
-  when: "'elitelordy' not in terminal_theme.stdout"
+  when: "'gruvbox-dark.terminal' not in terminal_theme.stdout"
 
 - name: Ensure custom Terminal profile is added.
-  command: open /tmp/elitelordy.terminal
+  command: open /tmp/gruvbox-dark.terminal
   changed_when: false
-  when: "'elitelordy' not in terminal_theme.stdout"
+  when: "'gruvbox-dark' not in terminal_theme.stdout"
 
 # TODO: This doesn't work in Yosemite. Consider a different solution?
 - name: Ensure custom Terminal profile is set as default.
   command: "{{ item }}"
   with_items:
-    - defaults write com.apple.terminal 'Default Window Settings' -string elitelordy
-    - defaults write com.apple.terminal 'Startup Window Settings' -string elitelordy
+    - defaults write com.apple.terminal 'Default Window Settings' -string gruvbox-dark
+    - defaults write com.apple.terminal 'Startup Window Settings' -string gruvbox-dark
   changed_when: false
-  when: "'elitelordy' not in terminal_theme.stdout"
+  when: "'gruvbox-dark' not in terminal_theme.stdout"
